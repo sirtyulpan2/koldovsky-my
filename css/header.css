@@ -1,3 +1,5 @@
+@import url(index.css);
+
 .header__container {
     padding-top: 20px;
     max-width: 1000px;
@@ -8,7 +10,26 @@
 }
 
 .header__container ul {
-    display: flex;
+    display: flex;   
+}
+
+.header__container .header__navigation a {
+    color: var(--main-color);
+    position: relative;
+}
+
+.header__container .header__navigation a:hover {
+    color: #ff5b2e;
+}
+
+.header__container .header__navigation a:hover:before {
+    content: "";
+    background-color: #ff5b2e;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 30px;
+    height: 1px;
 }
 
 .header__container-logo {
@@ -32,4 +53,9 @@
     border-radius: 50%;
     padding: 5px;
     margin: 0 5px;
+    transition: 0.3s;
+}
+
+.contact-icons-container:hover {
+    background-color: #fa3600;
 }
