@@ -1,0 +1,35 @@
+.header__container {
+    padding-top: 20px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header__container ul {
+    display: flex;
+}
+
+.header__container-logo {
+    max-width: 150px;
+}
+
+.navigation__item {
+    margin: 0 15px;
+}
+
+.header__menu-buttons {
+    display: none;
+}
+
+.contact-icons-container {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ff5b2e;
+    background-color: #ff5b2e;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 5px;
+}
