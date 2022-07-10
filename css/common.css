@@ -9,6 +9,7 @@
 :root {
     font-family: 'Poppins', sans-serif;
     --main-color: rgb(106, 110, 143);
+    --title-color: #040f73;
 }
 
 body {
@@ -26,5 +27,5 @@ ul {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: inherit;
 }

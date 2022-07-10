@@ -1,0 +1,45 @@
+.main__banner__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 170px 0;
+}
+
+.main__banner__container h1 {
+    font-family: 'Rubik', sans-serif;
+    color: var(--title-color);
+}
+
+.main__banner__empty {
+    width: 40%;
+    height: 3px;
+}
+
+.main__banner__description-order-services {
+    color: #fff;
+    font-weight: 700;
+    width: 200px;
+    background-color: #ff5b2e;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+
+.main__banner__description-order-services a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.main__banner__description-order-services img {
+    display: inline-block;
+    width: 15px
+}
+
+.main__banner__description-call {
+    color:#2d3579;
+}
+
+

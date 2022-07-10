@@ -22,14 +22,14 @@
     color: #ff5b2e;
 }
 
-.header__container .header__navigation a:hover:before {
+.header__container .header__navigation a:hover::before {
     content: "";
     background-color: #ff5b2e;
     position: absolute;
     left: 0;
     bottom: -3px;
     width: 30px;
-    height: 1px;
+    height: 2px;
 }
 
 .header__container-logo {
