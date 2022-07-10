@@ -17,6 +17,12 @@
     height: 3px;
 }
 
+.main__banner__description {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
 .main__banner__description-order-services {
     color: #fff;
     font-weight: 700;
