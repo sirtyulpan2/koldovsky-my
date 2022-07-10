@@ -1,26 +1,42 @@
+
 .main__banner__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 1000px;
-    padding: 170px 0;
+    max-width: 1200px;
+    padding: 200px 15px;
 }
 
 .main__banner__container h1 {
     font-family: 'Rubik', sans-serif;
     color: var(--title-color);
+    font-weight: 700;
+    font-size: 62px;
+}
+
+.main__banner__description-text {
+    font-weight: 500;
+    color: rgb(66, 72, 117);
+    font-size: 19px;
 }
 
 .main__banner__empty {
-    width: 40%;
+    width: 30%;
     height: 3px;
 }
 
 .main__banner__description {
     display: flex;
     flex-direction: column;
-    row-gap: 30px;
+    row-gap: 40px;
+    max-width: 570px;
+}
+
+.main__banner__description-contacts {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
 }
 
 .main__banner__description-order-services {
@@ -29,7 +45,8 @@
     width: 200px;
     background-color: #ff5b2e;
     border-radius: 25px;
-    padding: 5px 15px;
+    padding: 10px 15px;
+    transition: 0.3s;
 }
 
 .main__banner__description-order-services a {
@@ -44,8 +61,24 @@
     width: 15px
 }
 
+.main__banner__description-order-services:hover {
+    background-color: #424875;
+}
+
 .main__banner__description-call {
+    display: flex;
+    column-gap: 10px;
     color:#2d3579;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.main__banner__description-call img {
+    width: 20px;
+}
+
+.main__banner__description-call:hover {
+    text-decoration: underline;
 }
 
 
