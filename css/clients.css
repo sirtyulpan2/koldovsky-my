@@ -1,0 +1,53 @@
+@import url(index.css);
+@import url(https://fonts.google.com/specimen/Rubik+Mono+One?query=rubik#standard-styles);
+.our__clients {
+    font-family: Rubik, sans-serif;
+    color: rgb(4, 15, 115);
+    padding: 30px 0 60px 0;
+    display: block;
+    font-size: 17px;
+    min-width: 320px;
+    text-align: center;
+}
+.our__clients-about-us {
+    font-size: 38px;
+   margin-bottom: 20px;
+}
+.clients {
+    font-size: 22px;
+    color: rgb(66, 72, 117);
+    margin-bottom: 80px;
+}
+.about__pets {
+    float: left;
+    width: 33%;  
+    margin: auto;
+}
+.my__pets {
+    width: 100%;
+    width: 120px;
+    margin: auto;
+}
+.pets__name {
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+.divider {
+  border: 2px solid rgb(255, 91, 46);
+  width: 50px;
+  margin: 15px auto;
+
+  }
+  .pets__info {
+color: rgb(106, 110, 143);
+font-size: 18px;
+margin: 0 60px;
+padding: 20px;
+line-height: 25.5px;
+}
+.pets__date {
+    font-size: 14px;
+    color: rgb(255, 91, 46);
+    font-weight: 600;
+    margin-bottom: 60px;
+}
