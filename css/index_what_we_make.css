@@ -1,0 +1,87 @@
+@import url(index.css);
+@import url(https://fonts.google.com/specimen/Rubik+Mono+One?query=rubik#standard-styles);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rubik:wght@600;700&display=swap);
+
+.what-we-make {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 7px;
+    ;
+}
+
+.whitedog {
+    width: 362px;
+    height: 500px;
+
+}
+
+.h2-what-we-make {
+
+    width: 362px;
+    height: 99px;
+    font-family: Rubik, sans-serif;
+    font-size: 35px;
+    color: #040f73;
+    text-align: left;
+}
+
+.description-what-we-make {
+    width: 362px;
+    height: 85px;
+    font-family: Poppins, sans-serif;
+    font-size: 19px;
+    color: #424875;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.description-low1 {
+    width: 362px;
+    height: 76px;
+    font-family: Poppins, sans-serif;
+    font-size: 19px;
+    color: #6a6e8f;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.description-low2 {
+    width: 362px;
+    height: 153px;
+    font-family: Poppins, sans-serif;
+    font-size: 19px;
+    color: #6a6e8f;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.button_what-we-make {
+    width: 170px;
+    height: 50px;
+    background-color: #ff5b2e;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 150px;
+    padding-top: 13px;
+    
+}
+    
+
+.on_button-link {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;}
+
+.button_what-we-make:hover {
+    background-color: #6a6e8f;
+    color: #ffffff;
+    cursor: pointer;
+}
