@@ -139,5 +139,16 @@
     color: #2d3579;
     margin-left: 10px;
     margin-bottom: 15px;
-    
 }
+.pets-box-learn1 {
+    width: 104px;
+    height: 15px;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #2d3579;
+    margin-left: 10px;
+    margin-bottom: 15px;
+
+}
+.right-arrow {padding-left: 10px;}

@@ -67,21 +67,18 @@
     background-color: #ff5b2e;
     border-radius: 30px;
     text-align: center;
-    padding-top: 13px;
-    padding-left: 25px;
     margin-top: 150px;
+    padding-top: 13px;
     
 }
-/* Колір тексту в кнопці */
-.on_button {
-    width: 114px;
-    height: 18px;
+    
+
+.on_button-link {
     font-family: Poppins, sans-serif;
     font-size: 15px;
     font-weight: bold;
     color: #ffffff;
-    text-align: center;
-}
+    text-align: center;}
 
 .button_what-we-make:hover {
     background-color: #6a6e8f;
