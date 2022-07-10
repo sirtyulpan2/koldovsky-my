@@ -1,7 +1,7 @@
 .get-start {
   padding: 60px 0px 60px 0px;
   width: 1520px;
-  height: 691px;
+  height: 811px;
   display: flex;
 }
 
@@ -10,6 +10,7 @@
   height: 691px;
   display: flex;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .container__text-block {
@@ -38,7 +39,7 @@
   color: #6a6e8f;
   font-size: 17px;
   font-family: "Poppins", sans-serif;
-  padding-top: 25px;
+  padding-top: 15px;
 }
 
 .logo-heart {
@@ -66,7 +67,7 @@
 }
 
 .img-rabbit {
-  width: 500px;
-  height: 590px;
+  width: 570px;
+  height: 691px;
   padding: 0px 15px;
 }
