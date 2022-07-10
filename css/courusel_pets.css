@@ -129,12 +129,13 @@
     margin-bottom: 15px;
     color: rgb(106, 110, 143);
 }
-
+/* Не змінюється колір тексту, не можу відкорегувати стрілку */
 .pets-box-learn {
     width: 104px;
     height: 15px;
     font-family: Poppins, sans-serif;
     font-size: 12px;
+    font-weight: bold;
     color: #2d3579;
     margin-left: 10px;
     margin-bottom: 15px;
