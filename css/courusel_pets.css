@@ -1,0 +1,97 @@
+
+
+.courusel__pets {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 7px;
+}
+
+.pets-box {
+    width: 347px;
+    height: 310px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    border-radius: 40px;
+    padding-top: 10px;
+}
+
+.logo-pet-cat {
+    width: 70px;
+    height: 70px;
+    background-color: #90ccff;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    border-radius: 80px;
+    border: 1px;
+    margin-left: 20px;
+
+}
+
+.logo-pet-dog {
+    width: 70px;
+    height: 70px;
+    background-color: #ff5b2e;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    border-radius: 80px;
+    border: 1px;
+    margin-left: 20px;
+}
+
+.logo-pet-rabbit {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(250, 191, 62);
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    border-radius: 80px;
+    border: 1px;
+    margin-left: 20px;
+}
+
+.logo-pet-fish {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(91, 214, 226);
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    border-radius: 80px;
+    border: 1px;
+    margin-left: 20px;
+}
+
+.logo-pet-turtle {
+    width: 70px;
+    height: 70px;
+    background-color: #ff5b2e;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    border-radius: 80px;
+    border: 1px;
+    margin-left: 20px;
+}
+
+.logo-pet-bird {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(250, 191, 62);
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    border-radius: 80px;
+    border: 1px;
+    margin-left: 20px;
+}
