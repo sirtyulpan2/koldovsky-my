@@ -1,6 +1,6 @@
 .what-we-make {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 7px;
@@ -10,6 +10,7 @@
 .whitedog {
     width: 362px;
     height: 500px;
+    margin-right: 150px;
 
 }
 
