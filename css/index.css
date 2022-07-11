@@ -1,7 +1,7 @@
 @import url(common.css);
-@import url(header.css);
-@import url(main_banner.css);
+@import url(index_header.css);
+@import url(index_main_banner.css);
 @import url(index_courusel_pets.css);
 @import url(index_what_we_make.css);
-@import url(clients.css);
-@import url(our_help.css)
+@import url(index_clients.css);
+@import url(index_our_help.css)
