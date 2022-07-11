@@ -1,8 +1,7 @@
 .get-start {
-  background-color: rgb(250, 238, 238);
   padding: 60px 0px 60px 0px;
   width: 1520px;
-  height: 691px;
+  height: 811px;
   display: flex;
 }
 
@@ -15,13 +14,14 @@
 }
 
 .container__text-block {
+  padding: 100px 0px 0px 100px 0px;
   display: flex;
 }
 
 .get-start__text-block {
   width: 570px;
-  height: 400px;
-  padding: 0px 15px;
+  height: 691px;
+  padding: 200px 15px;
 }
 
 .get-start__title {
@@ -60,6 +60,7 @@
   height: 19px;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
+  padding-top: 20px;
 }
 
 .icon__text {
