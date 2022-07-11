@@ -25,6 +25,7 @@
     font-size: 35px;
     color: #040f73;
     text-align: left;
+    
 }
 
 .description-what-we-make {
@@ -36,7 +37,7 @@
     font-weight: bold;
     text-align: left;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .description-low1 {
@@ -46,8 +47,9 @@
     font-size: 19px;
     color: #6a6e8f;
     text-align: left;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .description-low2 {
@@ -58,7 +60,7 @@
     color: #6a6e8f;
     text-align: left;
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .button_what-we-make {
