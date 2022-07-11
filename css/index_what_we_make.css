@@ -1,7 +1,3 @@
-@import url(index.css);
-@import url(https://fonts.google.com/specimen/Rubik+Mono+One?query=rubik#standard-styles);
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rubik:wght@600;700&display=swap);
-
 .what-we-make {
     display: flex;
     justify-content: space-between;
@@ -25,7 +21,7 @@
     font-size: 35px;
     color: #040f73;
     text-align: left;
-    
+
 }
 
 .description-what-we-make {
@@ -73,7 +69,7 @@
     padding-top: 13px;
     transition: 0.3s;
 }
-    
+
 
 .on_button-link {
     font-family: Poppins, sans-serif;
@@ -81,11 +77,11 @@
     font-weight: bold;
     color: #ffffff;
     text-align: center;
-    }
+}
 
 .button_what-we-make:hover {
     background-color: #6a6e8f;
     color: #ffffff;
     cursor: pointer;
-    
+
 }

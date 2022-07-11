@@ -1,4 +1,3 @@
-
 .main__banner__container {
     display: flex;
     align-items: center;
@@ -68,7 +67,7 @@
 .main__banner__description-call {
     display: flex;
     column-gap: 10px;
-    color:#2d3579;
+    color: #2d3579;
     font-weight: 700;
     font-size: 15px;
 }
@@ -80,5 +79,3 @@
 .main__banner__description-call:hover {
     text-decoration: underline;
 }
-
-

@@ -1,37 +1,37 @@
-@import url(index.css);
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Rubik:wght@600;700&display=swap');
+.services-item {
+    margin-top: 15px;
+    margin-bottom: 45px;
 
-/* .services-item{
-
-} */
+}
 
 
 .services-blocktitle {
     font-size: 42px;
-    font-family:'Poppins', sans-serif;
+    font-family: Rubik, sans-serif;
     color: #040F73;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .services-info {
-    font-size:19px;
-    font-family: 'Poppins' ,sans-serif;
-    color:#424875;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    color: #424875;
     font-weight: 500;
     text-align: center;
     line-height: 28.5px;
 }
 
-/* карусель */
-/* .item-wrapper {
+
+.services-wrapper {
     display: flex;
+    column-gap: 15px;
+}
 
-} */
-
-.item-image {
+*/ .item-image {
     width: 50%;
-    
+
 }
 
 
@@ -41,25 +41,30 @@
 /* блок карусели */
 .blocktitle {
     font-size: 24px;
-    font-family:'Poppins', sans-serif;
+    font-family: Rubik, sans-serif;
     color: #040F73;
     font-weight: 600;
     text-align: left;
+    margin-bottom: 15px;
+    margin-top: 15px;
 
 }
 
 .item-info {
     color: #6A6E8F;
     font-size: 17px;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    text-align:left ;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
 }
 
 .item-price {
     color: #FF5B2E;
     font-size: 12px;
-    font-family:'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-align: left;
 
