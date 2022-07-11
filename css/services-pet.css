@@ -1,0 +1,67 @@
+@import url(index.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Rubik:wght@600;700&display=swap');
+
+/* .services-item{
+
+} */
+
+
+.services-blocktitle {
+    font-size: 42px;
+    font-family:'Poppins', sans-serif;
+    color: #040F73;
+    font-weight: 700;
+    text-align: center;
+}
+
+.services-info {
+    font-size:19px;
+    font-family: 'Poppins' ,sans-serif;
+    color:#424875;
+    font-weight: 500;
+    text-align: center;
+    line-height: 28.5px;
+}
+
+/* карусель */
+/* .item-wrapper {
+    display: flex;
+
+} */
+
+.item-image {
+    width: 50%;
+    
+}
+
+
+
+
+
+/* блок карусели */
+.blocktitle {
+    font-size: 24px;
+    font-family:'Poppins', sans-serif;
+    color: #040F73;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+.item-info {
+    color: #6A6E8F;
+    font-size: 17px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    text-align:left ;
+}
+
+.item-price {
+    color: #FF5B2E;
+    font-size: 12px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: left;
+
+
+}
