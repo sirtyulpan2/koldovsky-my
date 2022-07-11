@@ -1,7 +1,8 @@
 .get-start {
+  background-color: rgb(250, 238, 238);
   padding: 60px 0px 60px 0px;
   width: 1520px;
-  height: 811px;
+  height: 691px;
   display: flex;
 }
 
@@ -14,8 +15,12 @@
 }
 
 .container__text-block {
+  display: flex;
+}
+
+.get-start__text-block {
   width: 570px;
-  height: 691px;
+  height: 400px;
   padding: 0px 15px;
 }
 
@@ -28,18 +33,22 @@
 }
 
 .get-start__text {
-  color: #424875;
+  color: #414774;
   font-size: 19px;
   font-family: "Poppins", sans-serif;
   max-width: 570px;
   max-height: 54px;
 }
 
+.get-start__list {
+  width: 570px;
+  height: 191px;
+}
+
 .logo-heard__text-list__text {
   color: #6a6e8f;
   font-size: 17px;
   font-family: "Poppins", sans-serif;
-  padding-top: 15px;
 }
 
 .logo-heart {
@@ -47,11 +56,10 @@
 }
 
 .care-pet__text {
+  width: 570px;
+  height: 19px;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
-  padding-top: 30px;
-  padding-bottom: 70px;
-  margin: 20px 0px 0px;
 }
 
 .icon__text {
@@ -67,7 +75,7 @@
 }
 
 .img-rabbit {
-  width: 570px;
+  width: 550px;
   height: 691px;
   padding: 0px 15px;
 }
