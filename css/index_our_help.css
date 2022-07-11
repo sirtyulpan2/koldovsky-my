@@ -38,21 +38,25 @@
   font-family: "Poppins", sans-serif;
   max-width: 570px;
   max-height: 54px;
+  margin-top: 20px;
 }
 
 .get-start__list {
   width: 570px;
   height: 191px;
+  margin-top: 20px;
 }
 
 .logo-heard__text-list__text {
   color: #6a6e8f;
   font-size: 17px;
   font-family: "Poppins", sans-serif;
+  margin-top: 15px;
 }
 
 .logo-heart {
   width: 15px;
+  display: inline-block;
 }
 
 .care-pet__text {
