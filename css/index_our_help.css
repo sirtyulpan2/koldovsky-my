@@ -1,27 +1,27 @@
 .get-start {
-  padding: 60px 0px 60px 0px;
+  padding: 60px 0px;
   width: 1520px;
   height: 811px;
   display: flex;
 }
 
 .get-start__container {
-  width: 1200px;
-  height: 691px;
+  min-width: 1200px;
+  min-height: 691px;
   display: flex;
-  margin: 0 auto;
+  margin: auto;
   justify-content: space-between;
 }
 
 .container__text-block {
-  padding: 100px 0px 0px 100px 0px;
   display: flex;
 }
 
 .get-start__text-block {
+  align-items: center;
   width: 570px;
   height: 691px;
-  padding: 200px 15px;
+  padding: 15px;
 }
 
 .get-start__title {
