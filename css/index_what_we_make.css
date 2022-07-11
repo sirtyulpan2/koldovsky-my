@@ -71,7 +71,7 @@
     text-align: center;
     margin-top: 150px;
     padding-top: 13px;
-    
+    transition: 0.3s;
 }
     
 
@@ -80,10 +80,12 @@
     font-size: 15px;
     font-weight: bold;
     color: #ffffff;
-    text-align: center;}
+    text-align: center;
+    }
 
 .button_what-we-make:hover {
     background-color: #6a6e8f;
     color: #ffffff;
     cursor: pointer;
+    
 }
