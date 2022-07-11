@@ -1,27 +1,14 @@
-.get-start {
-  padding: 60px 0px;
-  width: 1520px;
-  height: 811px;
-  display: flex;
-}
-
 .get-start__container {
-  min-width: 1200px;
-  min-height: 691px;
   display: flex;
-  margin: auto;
-  justify-content: space-between;
+  min-width: 1500px;
+  min-height: 811px;
+  padding: 60px 0;
 }
 
 .container__text-block {
-  display: flex;
-}
-
-.get-start__text-block {
-  align-items: center;
-  width: 570px;
-  height: 691px;
-  padding: 15px;
+  max-width: 570px;
+  max-height: 691px;
+  margin: auto;
 }
 
 .get-start__title {
@@ -30,6 +17,13 @@
   font-family: "Rubik", sans-serif;
   width: 570px;
   height: 54px;
+}
+
+.logo-heard__text-list__text {
+  color: #6a6e8f;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
 }
 
 .get-start__text {
@@ -47,40 +41,37 @@
   margin-top: 20px;
 }
 
-.logo-heard__text-list__text {
-  color: #6a6e8f;
-  font-size: 17px;
-  font-family: "Poppins", sans-serif;
-  margin-top: 15px;
-}
-
-.logo-heart {
-  width: 15px;
-  display: inline-block;
-}
-
 .care-pet__text {
-  width: 570px;
-  height: 19px;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   padding-top: 20px;
-}
-
-.icon__text {
-  color: #ff5b2e;
 }
 
 .dark-text {
   color: #424875;
 }
 
+.get-start__img {
+  max-width: 570px;
+  max-height: 691px;
+  margin: auto;
+}
+
+.img-rabbit {
+  max-width: 550px;
+  max-height: 691px;
+  margin: auto;
+}
+
+.icon__text {
+  color: #ff5b2e;
+}
+
 .colored-text {
   color: #ff5b2e;
 }
 
-.img-rabbit {
-  width: 550px;
-  height: 691px;
-  padding: 0px 15px;
+.logo-heart {
+  width: 15px;
+  display: inline-block;
 }
