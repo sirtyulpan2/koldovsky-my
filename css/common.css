@@ -12,11 +12,12 @@
     --dark-description: #424875;
     --title-color: #040f73;
     --line-color: #ff5b2e;
-    --card-backgtound: #ffffff;
+    --card-backgtound-color: #ffffff;
     --pet-icon-color1: #90ccff;
     --pet-icon-color2: rgb(250, 191, 62);
     --pet-icon-color3: rgb(91, 214, 226);
-
+    --about-clients-color: rgb(66, 72, 117);
+    --our-clients-color: rgb(4, 15, 115);
 }
 
 body {
