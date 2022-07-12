@@ -8,8 +8,15 @@
 
 :root {
     font-family: 'Poppins', sans-serif;
-    --main-color: rgb(106, 110, 143);
+    --description-color: rgb(106, 110, 143);
+    --dark-description: #424875;
     --title-color: #040f73;
+    --line-color: #ff5b2e;
+    --card-backgtound: #ffffff;
+    --pet-icon-color1: ;
+    --pet-icon-color2: ;
+    --pet-icon-color3: ;
+
 }
 
 body {
