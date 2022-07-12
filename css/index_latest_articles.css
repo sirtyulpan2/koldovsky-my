@@ -1,0 +1,87 @@
+.main__articles {
+    padding: 50px 15px 60px 15px;
+}
+
+.main__articles-card {
+    padding: 5px;
+}
+
+@media (min-width: 560px) {
+    .main__articles-card-box {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+        grid-gap: 20px;
+    }
+}
+
+.main__articles-title {
+    --main__articles-title-font: Rubik, sans-serif;
+    font-family: var(--main__articles-title-font);
+    color: var(--title-color);
+    text-align: center;
+    font-size: 38px;
+    min-width: 320px;
+    padding: 20px 0px 20px 0px;
+}
+
+.main__articles-paragraph {
+    --main__articles-paragraph-font: Poppins, sans-serif;
+    font-family: var(--main__articles-paragraph-font);
+    color: var(--dark-description);
+    text-align: center;
+    font-size: 19px;
+    min-width: 320px;
+    padding: 0px 0px 40px 0px;
+}
+
+.main__articles-card-picture {
+    height: 263px;
+}
+
+.main__articles-card-date {
+    --main__articles-card-date-font: Poppins, sans-serif;
+    color: var(--line-color);
+    font-size: 12px;
+    min-width: 320px;
+    padding: 30px 0px 30px 0px;
+    font-weight: 600;
+}
+
+.main__articles-card-title {
+    --main__articles-card-title-font: Rubik, sans-serif;
+    font-family: var(--main__articles-card-title-font);
+    color: var(--title-color);
+    font-size: 23px;
+    min-width: 320px;
+    font-weight: 700;
+    padding: 0px 0px 25px 0px;
+}
+
+.main__articles-card-text {
+    --main__articles-card-text-font: Poppins, sans-serif;
+    --main__articles-card-text-color: var(--description-color);
+    font-family: var(--main__articles-card-text-font);
+    color: var(--main__articles-card-text-color);
+    font-size: 17px;
+    min-width: 320px;
+    padding: 0px 0px 40px 0px;
+}
+
+.main__articles-card-button {
+    --main__articles-card-button-font: Poppins, sans-serif;
+    font-family: var(--main__articles-card-button-font);
+    color: var(--card-background-color);
+    font-weight: 700;
+    width: 200px;
+    background-color: var(--line-color);
+    border-radius: 25px;
+    transition: 0.3s;
+    font-size: 15.4px;
+    margin: 10px 10px 10px 10px;
+    padding: 16px 28px 16px 28px;
+
+}
+
+.main__articles-card-button:hover {
+    background-color: var(--dark-description);
+}
