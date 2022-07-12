@@ -20,7 +20,7 @@
 .logo-pet-cat {
     width: 70px;
     height: 70px;
-    background-color: #90ccff;
+    background-color: var(--pet-icon-color1);
     padding-left: 12px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -48,7 +48,7 @@
 .logo-pet-rabbit {
     width: 70px;
     height: 70px;
-    background-color: rgb(250, 191, 62);
+    background-color: var(--pet-icon-color2);
     padding-left: 12px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -61,7 +61,7 @@
 .logo-pet-fish {
     width: 70px;
     height: 70px;
-    background-color: rgb(91, 214, 226);
+    background-color: var(--pet-icon-color3);
     padding-left: 12px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -87,7 +87,7 @@
 .logo-pet-bird {
     width: 70px;
     height: 70px;
-    background-color: rgb(250, 191, 62);
+    background-color: var(--pet-icon-color2);
     padding-left: 12px;
     padding-top: 12px;
     padding-bottom: 12px;
