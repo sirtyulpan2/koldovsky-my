@@ -31,6 +31,12 @@
     margin: auto;
 }
 
+@media (min-width: 500px) {
+    .our__clients-pets {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+
 .about__pets { 
     width: 500px;
     height: 500px;
