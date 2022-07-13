@@ -82,13 +82,13 @@
     font-family: Poppins, sans-serif;
     font-size: 15px;
     font-weight: bold;
-    color: var(--card-backgtound);
+    color: var(--card-background-color);
     text-align: center;
 }
 
 .button_what-we-make:hover {
     background-color: var(--description-color);
-    color: var(--card-backgtound);
+    color: var(--card-background-color);
     cursor: pointer;
 
 }
