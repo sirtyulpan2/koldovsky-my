@@ -1,78 +1,78 @@
 .our__clients {
-    font-family: 'Rubik', sans-serif;
-    color: var(--title-color);
-    padding: 50px 24px 60px 24px;
-    display: block;
-    font-size: 17px;
-    min-width: 320px;
-    text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: var(--title-color);
+  padding: 50px 24px 60px 24px;
+  display: block;
+  font-size: 17px;
+  min-width: 320px;
+  text-align: center;
 }
 
 .our__clients-about-us {
-    font-size: 38px;
-    margin-bottom: 20px;
-    font-weight: 700;
-    text-transform: none;
+  font-size: 38px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: none;
 }
 
 .clients {
-    font-size: 19px;
-    font-family: 'Poppins', sans-serif;
-    color: var(--dark-description);
-    text-transform: none;
-    font-weight: 500;
-    margin-bottom : 80px;
+  font-size: 19px;
+  font-family: "Poppins", sans-serif;
+  color: var(--dark-description);
+  text-transform: none;
+  font-weight: 500;
+  margin-bottom: 80px;
 }
 
 .our__clients-pets {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 @media (min-width: 500px) {
-    .our__clients-pets {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    }
-
-.about__pets { 
-    width: 500px;
-    height: 500px;
-    background-color: var(--card-background-color);
+  .our__clients-pets {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+}
+.about__pets {
+  width: 500px;
+  height: 500px;
+  background-color: var(--card-background-color);
 }
 
 .my__pets {
-    width: 120px;
-    margin: auto;
+  width: 120px;
+  margin: auto;
 }
 
 .pets__name {
-    margin-bottom: 10px;
-    font-size: 22px;
-    margin-bottom: 15px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  margin-bottom: 15px;
 }
 
 .divider {
-    justify-content: center;
-    display: flex;
-    height: 3px;
-    width: 50px;
-    margin: auto;
-    background-color: var(--line-color);
+  justify-content: center;
+  display: flex;
+  height: 3px;
+  width: 50px;
+  margin: auto;
+  background-color: var(--line-color);
 }
 
 .pets__info {
-    color: var(--description-color);
-    font-size: 17px;
-    margin: 15px 80px;
-    font-family: 'Poppins', sans-serif;
+  color: var(--description-color);
+  font-size: 17px;
+  margin: 15px 80px;
+  font-family: "Poppins", sans-serif;
 }
 
 .pets__date {
-    font-size: 14px;
-    color: var(--line-color);
-    font-weight: 600;
-    margin-bottom: 60px;
+  font-size: 14px;
+  color: var(--line-color);
+  font-weight: 600;
+  margin-bottom: 60px;
 }
