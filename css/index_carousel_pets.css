@@ -1,6 +1,6 @@
 
 @media (min-width: 200px) {
-.courusel__pets {
+.carousel__pets {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
@@ -10,14 +10,14 @@
 }
 }
 @media (min-width:500px) {
-    .courusel__pets {
+    .carousel__pets {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     }
 }
 @media (min-width: 900px) {
-    .courusel__pets {
+    .carousel__pets {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;

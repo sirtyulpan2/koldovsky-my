@@ -1,28 +1,32 @@
-
-.main_section_what-we-make {
+.what-we-make {
     display: grid;
-    grid-template-columns: 1ft 1ft;
+    grid-template-columns:1fr 1fr;
+    max-width: 980px;
+}
+
+@media (min-width: 200px) {
+    .what-we-make {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
 }
 
 @media (min-width: 750px) {
-.what-we-make {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 7px;
-    ;
-}
+    .what-we-make {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }
 }
 
-.whitedog {
-    width: 40%;
-    margin: auto;
+
+.whitedog-img {
+    width: 100%;
+    padding: 0 15px;
 
 }
-.text-what-we-make {
-    margin: 50px;
-}
+
 
 .h2-what-we-make {
 
@@ -41,8 +45,7 @@
     color: var(--dark-description);
     font-weight: bold;
     text-align: justify;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    margin-top: 25px;
 }
 
 .description-low1 {
@@ -51,9 +54,8 @@
     font-size: 19px;
     color: var(--description-color);
     text-align: justify;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    margin-bottom: 15px;
+    margin-top: 25px;
+
 }
 
 .description-low2 {
@@ -62,8 +64,8 @@
     font-size: 19px;
     color: var(--description-color);
     text-align: justify;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    margin-top: 25px;
+
 }
 
 .button_what-we-make {
