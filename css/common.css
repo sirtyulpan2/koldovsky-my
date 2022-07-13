@@ -7,11 +7,12 @@
 }
 
 :root {
+    scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
     --description-color: rgb(106, 110, 143);
     --dark-description: #424875;
     --title-color: #040f73;
-    --line-color: #ff5b2e;
+    --line-color: #fe5a2d;
     --card-background-color: #ffffff;
     --pet-icon-color1: #90ccff;
     --pet-icon-color2: rgb(250, 191, 62);
