@@ -1,4 +1,4 @@
-@media (min-width: 0) {
+/*@media (min-width: 0) {
     .carousel__pets {
         display: grid;
         grid-template-columns: 1fr;
@@ -6,6 +6,7 @@
         margin-top: 100px;
         margin-bottom: 100px;
         padding: 7px;
+        align-items: center;
     }
 }
 
@@ -24,7 +25,10 @@
         gap: 20px;
     }
 }
-
+*/
+.carousel__pets {
+    margin: 0 50px;
+}
 
 .pets-box {
     width: 347px;
