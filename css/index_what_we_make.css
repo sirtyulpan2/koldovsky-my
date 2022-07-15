@@ -1,11 +1,13 @@
 .main_section_what-we-make {
     padding: 60px 0;
+
 }
 
 .what-we-make {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 980px;
+    gap: 20px;
+    max-width: 1200px;
 }
 
 @media (min-width: 0) {
@@ -47,9 +49,8 @@
     font-family: Poppins, sans-serif;
     font-size: 19px;
     color: var(--dark-description);
-    font-weight: bold;
     text-align: justify;
-    margin-top: 25px;
+
 }
 
 .description-low1 {
@@ -58,7 +59,7 @@
     font-size: 19px;
     color: var(--description-color);
     text-align: justify;
-    margin-top: 25px;
+
 
 }
 
@@ -68,7 +69,7 @@
     font-size: 19px;
     color: var(--description-color);
     text-align: justify;
-    margin-top: 25px;
+
 
 }
 
@@ -78,7 +79,7 @@
     background-color: var(--line-color);
     border-radius: 30px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 35px;
     padding-top: 13px;
     transition: 0.3s;
 }

@@ -1,7 +1,7 @@
 .carousel-inner {
 
     margin: auto;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 
@@ -38,6 +38,7 @@
 .carousel-control-next-icon {
     background-image: url(https://www.svgrepo.com/show/85093/right-arrow.svg)
 }
+
 .carousel-control-prev-icon {
     background-image: url(https://www.svgrepo.com/show/238293/left-arrow-next.svg);
 }
