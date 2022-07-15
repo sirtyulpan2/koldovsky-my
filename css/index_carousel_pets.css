@@ -7,7 +7,7 @@
     max-width: 1000px;
 }
 
-.carousel-item {
+.carousel-item.active {
     margin: auto;
 }
 
