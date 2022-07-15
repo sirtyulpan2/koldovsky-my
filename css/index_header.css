@@ -40,7 +40,7 @@
 }
 
 .header__container-logo {
-    max-width: 150px;
+    width: 150px;
 }
 
 .navigation__item {
@@ -66,3 +66,40 @@
 .contact-icons-container:hover {
     background-color: #fa3600;
 }
+
+@media screen and (max-width: 767px){
+    .header__container {
+        width: 100%;
+    }
+
+    .header__container ul {
+        display: none;
+    }
+
+    .header__menu-buttons {
+        display: flex;
+    }
+
+    .header__container-logo img {
+        max-width: 150px;
+    }
+
+    .header__container-logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+    }
+
+    .contact-icons-container {
+        display: none;
+    }
+
+    .menu-button {
+        width: 30px;
+        border: none;
+        background-color: unset;
+    }
+
+
+} 
