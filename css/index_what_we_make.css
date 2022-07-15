@@ -1,3 +1,7 @@
+.main_section_what-we-make {
+    margin-top: 25px;
+}
+
 .what-we-make {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -64,6 +64,10 @@
     background-color: #424875;
 }
 
+#banner-description-services:hover {
+    color: var(--card-background-color);
+}
+
 .main__banner__description-call {
     display: flex;
     column-gap: 10px;
