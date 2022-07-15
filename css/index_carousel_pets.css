@@ -1,15 +1,9 @@
 .carousel-inner {
-    display: flex;
-    flex-direction: row;
-
 
     margin: auto;
     max-width: 1000px;
 }
 
-.carousel-item.active {
-    margin: auto;
-}
 
 /* @media (min-width: 0) {
     .carousel__pets {
