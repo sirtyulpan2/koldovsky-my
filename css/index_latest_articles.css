@@ -3,14 +3,9 @@
     width: 100%;
     padding: 50px 15px 60px 15px;
     max-width: 1200px;
-   display: flex;
-   flex-direction: column;
-  
-  
-
+    display: flex;
+    flex-direction: column;
 }
-
-
 
 .main__articles-card {
     margin-bottom: 20px;
@@ -18,15 +13,11 @@
 }
 
 @media (min-width: 560px) {
-  
-
     .main__articles-card-box {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
         grid-gap: 20px;
         justify-items: center;
-        
-
     }
 }
 
@@ -96,9 +87,10 @@
     font-size: 15.4px;
     margin: 10px 10px 10px 10px;
     padding: 16px 28px 16px 28px;
+}
 
-  
-
+#hover-color {
+    color: var(--card-background-color);
 }
 
 .main__articles-card-button:hover {
