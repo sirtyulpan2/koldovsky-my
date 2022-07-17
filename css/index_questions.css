@@ -1,3 +1,8 @@
+.main__questions {
+max-width: 1200px;
+margin: auto;
+}
+
 @media (min-width: 560px) {
     .main__questions {
         display: grid;
@@ -5,6 +10,7 @@
         grid-gap: 20px;
 
         padding: 50px 15px 60px 15px;
+
 
     }
 }
