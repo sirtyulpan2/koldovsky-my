@@ -1,24 +1,31 @@
 .main__questions {
 max-width: 1200px;
 margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
-@media (min-width: 560px) {
+@media (min-width: 800px) {
     .main__questions {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
-
+        align-items: center;
         padding: 50px 15px 60px 15px;
-
-
     }
 }
 
 .main__questions-info-container {
     padding: 0px 20px 0px 0px;
+    max-width: 320px;
+}
 
-
+@media (min-width: 800px) {
+    .main__questions-info-container {
+        max-width: unset;
+    }
 }
 
 .main__questions-title {
@@ -26,8 +33,7 @@ margin: auto;
     font-family: var(--main__questions-title-font);
     color: var(--title-color);
     text-align: left;
-    font-size: 38px;
-    min-width: 320px;
+    font-size: 38px; 
     padding: 20px 0px 20px 0px;
 }
 
@@ -36,8 +42,7 @@ margin: auto;
     font-family: var(--main__questions-paragraph-font);
     color: var(--dark-description);
     text-align: left;
-    font-size: 19px;
-    min-width: 320px;
+    font-size: 19px; 
     padding: 0px 0px 40px 0px;
 }
 
@@ -51,8 +56,6 @@ margin: auto;
     height: 65px;
     border-radius: 50%;
     margin: 0px 20px 0px 0px;
-
-
 }
 
 .main__questions-info-box-content {
@@ -67,7 +70,6 @@ margin: auto;
     font-family: var(--main__questions-info-box-font);
     color: var(--title-color);
     font-size: 23px;
-    min-width: 320px;
     font-weight: 700;
     padding: 0px 0px 5px 0px;
 }
@@ -80,15 +82,20 @@ margin: auto;
     font-family: var(--main__questions-info-box-paragraph-font);
     color: var(--main__questions-info-box-paragraph-color);
     font-size: 17px;
-    min-width: 320px;
     padding: 0px 0px 5px 0px;
 }
 
 .main__questions-form-container {
+    max-width: 350px;
     background-color: var(--card-background-color);
     padding: 60px 60px 60px 60px;
     border-radius: 30px;
+}
 
+@media (min-width: 800px) {
+    .main__questions-form-container {
+        max-width: unset;
+    }
 }
 
 .main__questions-form {
@@ -106,7 +113,6 @@ margin: auto;
     padding: 0px 0px 0px 20px;
     margin: 0px 0px 20px 0px;
     border-style: none;
-
 }
 
 .main__questions-form-button {
@@ -118,5 +124,4 @@ margin: auto;
     padding: 0px 0px 0px 20px;
     margin: 50px 0px 20px 0px;
     border-style: none;
-
 }
