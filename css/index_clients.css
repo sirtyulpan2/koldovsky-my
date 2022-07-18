@@ -21,7 +21,7 @@
   color: var(--dark-description);
   text-transform: none;
   font-weight: 500;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .our__clients-pets {
@@ -35,11 +35,11 @@
   .our__clients-pets {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
   }
 }
 .about__pets {
-  width: 500px;
-  height: 500px;
+  width: 460px;
   background-color: var(--card-background-color);
 }
 
