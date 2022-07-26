@@ -31,12 +31,13 @@
             description: "royal canin"
         }
     ];
+    
     function fillLogos(logo_list) {
         let i = 0;
         const slidesfill = [];
         for (const logo of logo_list) {
             slidesfill[i] = ` <div class="logo_slide">
-            <img class="carrousel_food_list" src="${logo.image}" alt="${logo.description}"
+            <img class="carrousel_food_img" src="${logo.image}" alt="${logo.description}" height="110">
             </div>`;
             i++;
         }
@@ -48,16 +49,46 @@
 
     function renderCarousel() {
         const sliderContainer = document.querySelector('.carrousel_food_slides');
+        //  const imgPointer = document.querySelector('.logo_slide');
+        //  const cls = ["logo_one", "logo_two", "logo_three", "logo_four", "logo_five"];
 
         sliderContainer.innerHTML = slides[currentSlideIdx];
 
-        if (window.innerWidth > 300) {
+        if (window.innerWidth > 465) {
+
             const secondSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+
             sliderContainer.innerHTML += slides[secondSlideIdx];
 
-            if (window.innerWidth > 600) {
+            //     imgPointer.classList.remove(...cls); 
+            //   imgPointer.classList.add("logo_two");
+
+            if (window.innerWidth > 755) {
+
                 const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
                 sliderContainer.innerHTML += slides[thirdSlideIdx];
+
+                //  imgPointer.classList.remove(...cls);
+                //   imgPointer.classList.add("logo_three");
+
+                if (window.innerWidth > 855) {
+
+                    const fourSlideIdx = thirdSlideIdx + 1 >= slides.length ? 0 : thirdSlideIdx + 1;
+                    sliderContainer.innerHTML += slides[fourSlideIdx];
+
+                    // imgPointer.classList.remove(...cls);
+                    // imgPointer.classList.add("logo_four");
+
+                    if (window.innerWidth > 975) {
+
+                        const fifthSlideIdx = fourSlideIdx + 1 >= slides.length ? 0 : fourSlideIdx + 1;
+                        sliderContainer.innerHTML += slides[fifthSlideIdx];
+
+                        //    imgPointer.classList.remove(...cls);
+                        //   sliderContainer.classList.add("logo_five");
+
+                    }
+                }
             }
         }
     }

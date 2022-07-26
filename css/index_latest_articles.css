@@ -1,7 +1,7 @@
 .main__articles {
     margin: auto;
     width: 100%;
-    padding: 50px 15px 60px 15px;
+    padding: 30px 15px 60px 15px;
     max-width: 1200px;
     display: flex;
     flex-direction: column;

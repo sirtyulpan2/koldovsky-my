@@ -1,33 +1,64 @@
 .carrousel_food {
-    margin: auto;
+    margin: 60px auto 30px auto;
     width: 100%;
-    padding: 50px 15px 60px 15px;
     max-width: 1200px;
     display: flex;
-    flex-direction: column;
 }
 
 .carrousel_food_container {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .carrousel_food_slides {
+    width: 100%;
     min-height: 90px;
     display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.carrousel_food_img {
+    object-fit: contain;
+    width: 204px;
 }
 
 .logo_slide {
-    width: 50%;
+    border-style: none;
+    border-radius: 20px;
+    background-color: var(--carousel-food-background-slide);
     margin: auto;
 }
+
+.logo_one {
+    height: 121.98px;
+}
+
+.logo_two {
+    height: 52.77px;
+}
+
+.logo_three {
+    height: 60.8px;
+}
+
+.logo_four {
+    height: 52.77px;
+}
+
+.logo_five {
+    height: 41.67px;
+}
+
 
 .carrousel_food_btn-next,
 .carrousel_food_btn-prev {
     display: flex;
     position: absolute;
-    background: rgb(216, 195, 175);
+    background: var(--carousel-food-background-btn);
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -50,12 +81,12 @@
 .carrousel_food_btn-next-svg {
     width: 20px;
     height: 20px;
-    fill: #040f73;
+    fill: var(--carousel-food-btn-arrow);
 }
 
 .carrousel_food_btn-prev-svg {
     width: 20px;
     height: 20px;
-    fill: #040f73;
+    fill: var(--carousel-food-btn-arrow);
     transform: rotateY(180deg);
 }
