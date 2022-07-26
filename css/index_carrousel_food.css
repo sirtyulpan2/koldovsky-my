@@ -1,4 +1,13 @@
 .carrousel_food {
+    margin: auto;
+    width: 100%;
+    padding: 50px 15px 60px 15px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.carrousel_food_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,4 +20,32 @@
 .logo_slide {
     width: 50%;
     margin: auto;
+}
+
+.carrousel_food_btn-next,
+.carrousel_food_btn-prev {
+    display: flex;
+    background: rgb(216, 195, 175);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border-style: none;
+    z-index: 1;
+    opacity: .85;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrousel_food_btn-next-svg {
+    width: 20px;
+    height: 20px;
+    fill: #040f73;
+}
+
+.carrousel_food_btn-prev-svg {
+    width: 20px;
+    height: 20px;
+    fill: #040f73;
+    transform: rotateY(180deg);
 }
