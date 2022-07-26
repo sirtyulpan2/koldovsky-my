@@ -1,12 +1,12 @@
 (function () {
     const slides = [
-        `<div class="product__slide"> 
+        `<div class="animals__slides"> 
           <img src="img/img.rebbit.webp" alt="Rebbit">
           </div>`,
-        `<div class="product__slide"> 
+        `<div class="animals__slides"> 
           <img src="img/dogwhite.webp" alt="Dog">
           </div>`,
-        `<div class="product__slide"> 
+        `<div class="animals__slides"> 
           <img src="img/parrot.webp" alt="Parrot">
           </div>`
     ];
@@ -14,7 +14,7 @@
     let currentSlideIdx = 0;
 
     function renderCarousel() {
-        const slideContainer = document.querySelector('.products-carousel__slides');
+        const slideContainer = document.querySelector('.animals__carousel__slides');
         slideContainer.innerHTML = slides[currentSlideIdx];
     }
 
