@@ -43,10 +43,23 @@
         return slidesfill;
     }
     const slides = fillLogos(logos);
+
     let currentSlideIdx = 0;
+
     function renderCarousel() {
         const sliderContainer = document.querySelector('.carrousel_food_slides');
+
         sliderContainer.innerHTML = slides[currentSlideIdx];
+
+        if (window.innerWidth > 300) {
+            const secondSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+            sliderContainer.innerHTML += slides[secondSlideIdx];
+
+            if (window.innerWidth > 600) {
+                const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
+                sliderContainer.innerHTML += slides[thirdSlideIdx];
+            }
+        }
     }
     function prev() {
         currentSlideIdx = currentSlideIdx - 1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
@@ -56,10 +69,16 @@
         currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
         renderCarousel();
     }
+
     setInterval(next, 3000);
+
     const nextButton = document.querySelector('.carrousel_food_btn-next');
     nextButton.addEventListener('click', next);
+
     const prevButton = document.querySelector('.carrousel_food_btn-prev');
     prevButton.addEventListener('click', prev);
+
     renderCarousel();
+
+    window.addEventListener('resize', renderCarousel());
 })();
