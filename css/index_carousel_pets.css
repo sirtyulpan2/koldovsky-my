@@ -1,12 +1,15 @@
-.carousel-inner {
+.carousel-pets-box {
 
     margin: auto;
     max-width: 1200px;
+    display: flex;
+    align-items: left;
+    gap: 15px;
 }
 
 
-/* @media (min-width: 0) {
-    .carousel__pets {
+@media (min-width: 0) {
+    .carousel-pets-box {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 15px;
@@ -19,7 +22,7 @@
 }
 
 @media (min-width:500px) {
-    .carousel__pets {
+    .carousel-pets-box {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
@@ -27,25 +30,34 @@
 }
 
 @media (min-width: 900px) {
-    .carousel__pets {
+    .carousel-pets-box {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
-    
-}
-} */
 
-.carousel-control-next-icon {
-    background-image: url(https://www.svgrepo.com/show/85093/right-arrow.svg)
+    }
 }
 
-.carousel-control-prev-icon {
+.carousel-btn-next {
+    background-image: url(https://www.svgrepo.com/show/85093/right-arrow.svg);
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    border: 0;
+    background-color: #fff6ed;
+}
+
+.carousel-btn-prev {
     background-image: url(https://www.svgrepo.com/show/238293/left-arrow-next.svg);
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    border: 0;
+    background-color: #fff6ed;
 }
 
-.carousel-item {
+.carousel-pets-box-item {
     background-color: var(--card-background-color);
-    /* margin-left: 20px; */
     border-radius: 40px;
     padding-top: 10px;
 
@@ -160,22 +172,19 @@
     color: var(--description-color);
 }
 
-
-.pets-box-learn {
-    font-family: Poppins, sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    color: var(--title-color);
-    margin-left: 10px;
-    margin-bottom: 15px;
-}
-
 .pets-box-learn1 {
     font-family: Poppins, sans-serif;
     font-size: 12px;
     font-weight: bold;
     color: var(--title-color);
+    margin-left: 20px;
+    margin-bottom: 15px;
 
+}
+
+.pets-box-learn1:hover {
+    text-decoration: underline;
+    color: var(--title-color);
 }
 
 .right-arrow {
