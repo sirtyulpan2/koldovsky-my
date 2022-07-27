@@ -76,3 +76,8 @@
   font-weight: 600;
   margin-bottom: 60px;
 }
+
+.clients-clock {
+  display: flex;
+  justify-content: center;
+}
