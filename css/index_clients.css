@@ -81,3 +81,12 @@
   display: flex;
   justify-content: center;
 }
+
+.clock-text {
+  margin-right: 15px;
+  font-size: 17px;
+}
+
+.my-clock {
+  color: black;
+}
