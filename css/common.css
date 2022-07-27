@@ -18,10 +18,12 @@
     --pet-icon-color1: #90ccff;
     --pet-icon-color2: rgb(250, 191, 62);
     --pet-icon-color3: rgb(91, 214, 226);
-    --footer-title-color: rgb(4, 15, 115);
+    --footer-title-color: #040f73;
+    --element-with-bg-color: #fff6ed;
     --carousel-food-background-slide: rgb(251, 241, 231);
     --carousel-food-background-btn: rgb(216, 195, 175);
     --carousel-food-btn-arrow: #040f73;
+    --carousel-pets-box-arrow: #263193;
     --questions-info-box-icon-fill: rgb(255, 255, 255);
     --questions-info-box-placeholder-geo: rgb(255, 91, 46);
     --questions-info-box-placeholder-time: rgb(144, 204, 255);
