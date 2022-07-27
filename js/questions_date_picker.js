@@ -2,7 +2,7 @@
     document.body.addEventListener('click', function (e) {
         if (e.target.id.toLowerCase() === 'questions_date_picker') bmlc(e.pageX, e.pageY, function (y, m, d) {
             const putDate = document.querySelector('.field_date');
-            putDate.value = y + '-' + m + '-' + d;
+           y !== undefined && m !== undefined && d !== undefined ? putDate.value = y + '-' + m + '-' + d : putDate.value = "" ;
         });
     });
 
@@ -128,7 +128,7 @@
             }
             else if (r == 'r') {
                 // pass nothing to callback to indicate reset
-                callback();
+                callback("");
             }
         });
         div.querySelector('select').addEventListener('change', function (e) {
