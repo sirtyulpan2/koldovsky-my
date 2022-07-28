@@ -1,11 +1,11 @@
 .carousel-pets-box {
-
+    padding: 60px 40px;
     margin: auto;
     max-width: 1200px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    gap: 15px;
+    gap: 30px;
 }
 
 .carousel-slides {
@@ -13,60 +13,84 @@
     gap: 10px;
 }
 
+.arrow {
+    width: 100%;
+    margin: auto;
+}
+
 .carousel-btn-next {
-    background-image: url(https://www.svgrepo.com/show/85093/right-arrow.svg);
     width: 30px;
     height: 30px;
     margin: auto;
     border: 0;
     background-color: var(--element-with-bg-color);
     background-repeat: no-repeat;
+    background-image: url(/img/right_arrow_carousel.svg);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     .carousel-btn-next {
-        background-image: url(https://www.svgrepo.com/show/85093/right-arrow.svg);
         width: 30px;
         height: 30px;
         background-color: var(--carousel-pets-box-arrow);
         margin: auto;
         border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: 980px;
+        background-image: url(/img/white-arrow-right.png);
     }
 
     .carousel-btn-next:hover {
         background-color: var(--carousel-food-btn-arrow);
     }
+
+    .arrow {
+        width: 60%;
+        margin: auto;
+    }
 }
 
+
 .carousel-btn-prev {
-    background-image: url(https://www.svgrepo.com/show/238293/left-arrow-next.svg);
+    transform: rotate(180deg);
     width: 30px;
     height: 30px;
     margin: auto;
     border: 0;
+    background-image: url(/img/right_arrow_carousel.svg);
     background-color: var(--element-with-bg-color);
     background-repeat: no-repeat;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
     .carousel-btn-prev {
-        background-image: url(https://www.svgrepo.com/show/238293/left-arrow-next.svg);
         width: 30px;
         height: 30px;
         background-color: var(--carousel-pets-box-arrow);
+        background-image: url(/img/white-arrow-right.png);
         margin: auto;
         border-radius: 50%;
+        position: absolute;
+        left: 20px;
+        top: 980px;
     }
 
     .carousel-btn-prev:hover {
         background-color: var(--carousel-food-btn-arrow);
     }
+
+    /* .arrow {
+        width: 60%;
+        margin: auto;
+    } */
 }
 
 .carousel-pets-box-item {
     background-color: var(--card-background-color);
     border-radius: 40px;
-    padding-top: 10px;
+    padding-top: 12px;
+    padding-left: 12px;
 
 
 }
