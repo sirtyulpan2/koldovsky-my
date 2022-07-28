@@ -1,7 +1,7 @@
 (function () {
     const form = document.querySelector(".main__questions-form");
-
-    async function handleSubmit(event) {
+    function handleSubmit(event) {
+        if (!form.checkValidity()) return;
         event.preventDefault();
         const status = document.querySelector(".questions-form-status");
         fetch("https://formspree.io/f/xlevrrop", {
