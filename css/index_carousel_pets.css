@@ -4,86 +4,89 @@
     max-width: 1200px;
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    gap: 30px;
+    gap: 15px;
+    position: relative;
 }
 
 .carousel-slides {
     display: flex;
-    gap: 10px;
-}
-
-.arrow {
-    width: 100%;
-    margin: auto;
+    gap: 30px;
 }
 
 .carousel-btn-next {
-    width: 30px;
-    height: 30px;
     margin: auto;
     border: 0;
     background-color: var(--element-with-bg-color);
     background-repeat: no-repeat;
-    background-image: url(/img/right_arrow_carousel.svg);
+    font-size: 2rem;
+    color: var(--title-color);
+    opacity: 0.7;
 }
 
+.carousel-btn-next:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.carousel-btn-prev {
+    transform: rotate(180deg);
+    margin: auto;
+    border: 0;
+    background-color: var(--element-with-bg-color);
+    background-repeat: no-repeat;
+    font-size: 2rem;
+    opacity: 0.7;
+    color: var(--title-color);
+}
+
+.carousel-btn-prev:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
 @media (max-width: 1200px) {
+
     .carousel-btn-next {
         width: 30px;
         height: 30px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        color: var(--card-background-color);
+        font-size: 1rem;
         background-color: var(--carousel-pets-box-arrow);
-        margin: auto;
         border-radius: 50%;
         position: absolute;
         right: 20px;
-        top: 980px;
-        background-image: url(/img/white-arrow-right.png);
+        top: 190px;
+        opacity: 1;
+
     }
 
     .carousel-btn-next:hover {
         background-color: var(--carousel-food-btn-arrow);
     }
 
-    .arrow {
-        width: 60%;
-        margin: auto;
-    }
-}
-
-
-.carousel-btn-prev {
-    transform: rotate(180deg);
-    width: 30px;
-    height: 30px;
-    margin: auto;
-    border: 0;
-    background-image: url(/img/right_arrow_carousel.svg);
-    background-color: var(--element-with-bg-color);
-    background-repeat: no-repeat;
-}
-
-@media (max-width: 1200px) {
     .carousel-btn-prev {
         width: 30px;
         height: 30px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        color: var(--card-background-color);
+        font-size: 1rem;
         background-color: var(--carousel-pets-box-arrow);
-        background-image: url(/img/white-arrow-right.png);
-        margin: auto;
         border-radius: 50%;
         position: absolute;
         left: 20px;
-        top: 980px;
+        top: 190px;
+        opacity: 1;
     }
 
     .carousel-btn-prev:hover {
         background-color: var(--carousel-food-btn-arrow);
     }
-
-    /* .arrow {
-        width: 60%;
-        margin: auto;
-    } */
 }
 
 .carousel-pets-box-item {
