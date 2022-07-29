@@ -17,7 +17,9 @@
         modal.style.display = "none";
     }
     window.onclick = function (event) {
-        event.preventDefault();
+        if (event.target == btn_meal || event.target == btn_care || event.target == btn_health) {
+            event.preventDefault();
+        }
         if (event.target == modal) {
             modal.style.display = "none";
         }
