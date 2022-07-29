@@ -90,6 +90,18 @@
     const prevButton = document.querySelector('.carousel-btn-prev');
     prevButton.addEventListener('click', prev);
 
+    // const pages = document.querySelectorAll(".carousel-pets-box");
+    // const translateAmount = 100;
+    // let translate = 0;
+
+    // slide = (direction) => {
+
+    //     direction === "next" ? translate -= translateAmount : translate += translateAmount;
+
+    //     pages.forEach(
+    //         pages => (pages.style.transform = `translateX(${translate}%)`)
+    //     );
+    // }
     renderCarousel();
 
     window.addEventListener('resize', renderCarousel);

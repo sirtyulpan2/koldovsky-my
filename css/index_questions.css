@@ -126,8 +126,10 @@
 }
 
 .main__questions-form-field {
+    --main__questions-form-field-text: #424875;
     --page-background-color: #fff6ed;
     --main__questions-form-field-font: Poppins, sans-serif;
+    color: var(--main__questions-form-field-text);
     background-color: var(--page-background-color);
     font-family: var(--main__questions-form-field-font);
     min-height: 50px;

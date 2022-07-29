@@ -28,6 +28,12 @@
     --questions-info-box-placeholder-geo: rgb(255, 91, 46);
     --questions-info-box-placeholder-time: rgb(144, 204, 255);
     --questions-info-box-placeholder-phone: rgb(250, 191, 62);
+    --questions-date-background: rgb(251, 241, 231);
+    --questions-date-background-current: rgb(250, 191, 62);
+    --questions-date-background-weekend: rgb(255, 91, 46);
+    --questions-date-font: #424875;
+    --latest_articles_modal_background: rgb(251, 241, 231);
+    --latest_articles_modal_text: #424875;
 }
 
 body {
