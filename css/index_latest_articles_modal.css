@@ -12,11 +12,15 @@
 }
 
 .main__articles_modal_content {
-    background-color: #fefefe;
+    background-color: var(--latest_articles_modal_background);
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 45%;
+    color: var(--latest_articles_modal_text);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .main__articles_modal_close {
@@ -28,7 +32,7 @@
 
 .main__articles_modal_close:hover,
 .main__articles_modal_close:focus {
-    color: black;
+    color: var(--latest_articles_modal_text);
     text-decoration: none;
     cursor: pointer;
 }
