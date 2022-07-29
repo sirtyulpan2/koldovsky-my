@@ -27,5 +27,5 @@
             status.innerHTML = "Oops! There was a problem submitting your form"
         });
     }
-    document.querySelector('.button-submit').addEventListener("click", handleSubmit);
+    document.querySelector('.questions-button-submit').addEventListener("click", handleSubmit);
 })();
