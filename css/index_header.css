@@ -13,7 +13,6 @@
     align-items: center;
     margin: 0 auto;
     padding: 20px 15px 0;
-
 }
 
 .header__container ul {
@@ -63,6 +62,10 @@
     transition: 0.3s;
 }
 
+.menu-close {
+    display: none;
+}
+
 .contact-icons-container:hover {
     background-color: #fa3600;
 }
@@ -76,12 +79,26 @@
         width: 100%;
     }
 
-    .header__container ul {
+    .header__navigation {
         display: none;
+    }
+
+    .header__navigation .active {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        position: relative;
     }
 
     .header__menu-buttons {
         display: flex;
+        width: 45px;
+    }
+
+    .menu-close {
+        position: absolute; 
+        left: 30px;
+        top: 30px;
     }
 
     .header__container-logo img {
