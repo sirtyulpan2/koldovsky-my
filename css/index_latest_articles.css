@@ -89,7 +89,9 @@
     padding: 16px 28px 16px 28px;
 }
 
-#hover-color {
+#main__articles_btn_meal,
+#main__articles_btn_care,
+#main__articles_btn_health {
     color: var(--card-background-color);
 }
 
