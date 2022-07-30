@@ -49,14 +49,12 @@
            if (window.innerWidth > 900) {
             const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
            slideContainer.innerHTML += slides[thirdSlideIdx];
-
            }
-
         }
     }
 
     function prev() {
-        currentSlideIdx = currentSlideIdx - 1 < 0 ? slides.lenght - 1 : currentSlideIdx - 1;
+        currentSlideIdx = currentSlideIdx - 1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
         renderCarousel();
     }
 
@@ -73,7 +71,6 @@
     
     // setInterval(next, 3000);
     renderCarousel();
-
 
     window.addEventListener('resize', renderCarousel);
 
