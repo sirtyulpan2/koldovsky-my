@@ -7,7 +7,7 @@
   min-width: 320px;
   text-align: center;
   max-width: 1200px;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
 .our__clients-about-us {
@@ -25,7 +25,7 @@
   color: var(--dark-description);
   text-transform: none;
   font-weight: 500;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .our__clients-pets {
@@ -77,7 +77,7 @@
   font-size: 14px;
   color: var(--line-color);
   font-weight: 600;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
 }
 
 .clients-clock {
@@ -94,28 +94,25 @@
   color: black;
 }
 
-.our_pets-carousel {
+.our_pets-carousel__slides {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
-.our_pets-carousel__slides {
-  width: 60%;
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 50px;
+.pets__button-carousel {
+display: flex;
+justify-content: center;
 }
 
 .our_pets-carousel__btn-next,
 .our_pets-carousel__btn-prev {
-  width: 80px;
+  width: 40px;
   border-color: solid var(--questions-info-box-icon-fill);
-  height: 80px;
+  height: 40px;
   border-radius: 80px;
-  margin-top: 80px;
 }
 
 .arrow {
-  font-size: 50px;
+  font-size: 20px;
   color: var(--title-color);
 }
