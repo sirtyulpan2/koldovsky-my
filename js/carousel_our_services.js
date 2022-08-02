@@ -69,11 +69,11 @@
     const nextButton = document.querySelector('.services-wrapper-btn-next');
     nextButton.addEventListener('click', next);
     
-    // setInterval(next, 3000);
-    renderCarousel();
-
+    
     window.addEventListener('resize', renderCarousel);
-
-
+    
+    
+    setInterval(next, 3000);
+    renderCarousel();
 
 })();
