@@ -45,10 +45,10 @@
     function renderCarousel() {
         const slideContainer = document.querySelector('.our_pets-carousel__slides');
         slideContainer.innerHTML = slides[currentSlideIdx];
-        if (window.innerWidth > 600) {
+        if (window.innerWidth > 850) {
             const secondSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
             slideContainer.innerHTML += slides[secondSlideIdx];
-            if (window.innerWidth > 900) {
+            if (window.innerWidth > 1200) {
                 const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
                 slideContainer.innerHTML += slides[thirdSlideIdx];
             }

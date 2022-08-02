@@ -1,13 +1,13 @@
 .our__clients {
   font-family: "Rubik", sans-serif;
   color: var(--title-color);
-  padding: 50px 24px 60px 24px;
+  padding: 60px 24px;
   display: block;
   font-size: 17px;
   min-width: 320px;
   text-align: center;
   max-width: 1200px;
-  margin-left: 80px;
+  margin: auto;
 }
 
 .our__clients-about-us {
@@ -42,8 +42,11 @@
   }
 }
 .about__pets {
-  width: 460px;
+  /* width: 350px; */
   background-color: var(--card-background-color);
+  border-radius: 40px;
+  padding: 30px;
+  text-align: center;
 }
 
 .my__pets {
@@ -52,7 +55,7 @@
 }
 
 .pets__name {
-  margin-bottom: 10px;
+  margin-top: 10px;
   font-size: 22px;
   margin-bottom: 15px;
 }
@@ -69,8 +72,9 @@
 .pets__info {
   color: var(--description-color);
   font-size: 17px;
-  margin: 15px 80px;
+  margin: 20px auto;
   font-family: "Poppins", sans-serif;
+  
 }
 
 .pets__date {
@@ -97,22 +101,32 @@
 .our_pets-carousel__slides {
   display: flex;
   justify-content: center;
+  gap: 30px;
 }
 
 .pets__button-carousel {
+  margin-top: 20px;
 display: flex;
 justify-content: center;
+gap: 30px;
 }
 
 .our_pets-carousel__btn-next,
 .our_pets-carousel__btn-prev {
   width: 40px;
-  border-color: solid var(--questions-info-box-icon-fill);
   height: 40px;
-  border-radius: 80px;
+  border-radius: 50%;
+  background-color: var(--carousel-food-btn-arrow);
+  opacity: 0.7;
 }
 
 .arrow {
   font-size: 20px;
-  color: var(--title-color);
+  color: #ffffff;
+}
+
+.our_pets-carousel__btn-next:hover ,
+.our_pets-carousel__btn-prev:hover {
+  opacity: 1;
+  transition: 0.7s;
 }
