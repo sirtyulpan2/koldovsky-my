@@ -19,6 +19,14 @@
     display: flex;
 }
 
+.header__contact-icons-active {
+    display: none;
+}
+
+.active-menu-logo {
+    display: none;
+}
+
 .header__container .header__navigation a {
     color: var(--description-color);
     position: relative;
@@ -28,7 +36,7 @@
     color: var(--button-color);
 }
 
-.header__container .header__navigation a:hover::before {
+.header__container .header__navigation ul a:hover::before {
     content: "";
     background-color: var(--button-color);
     position: absolute;
@@ -70,7 +78,7 @@
     background-color: #fa3600;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 950px){
     .header {
         background-position: 40.94% 40.22;
     }
@@ -85,9 +93,49 @@
 
     .header__navigation.active {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        background-color: var(--element-with-bg-color);
         height: 100vh;
-        position: relative;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-weight: 500;
+    }
+
+    .header__navigation.active ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        font-size: 20px;
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .header__navigation.active ul a:hover::before {
+        background-color: inherit;
+    }
+
+    .header__navigation.active .active-menu-logo {
+        display: flex;
+        width: 100%;
+        justify-content: start;
+    }
+
+    .header__navigation.active .active-logo {
+        max-width: 170px;
+        margin: 20px 0 20px 10px;
+    }
+
+    .header__navigation.active .header__contact-icons-active {
+        display: flex;
+    }
+
+    .header__navigation.active .contact-icons-container {
+        display: flex;
     }
 
     .header__menu-buttons {
@@ -99,7 +147,9 @@
         display: block;
         position: absolute; 
         right: 30px;
-        top: 30px;
+        top: 20px;
+        width: 20px;
+        height: 20px;
     }
 
     .header__container-logo img {
@@ -111,6 +161,10 @@
         display: flex;
         justify-content: space-between;
         flex: 1;
+    }
+
+    .header__container-logo .active {
+        display: none;
     }
 
     .contact-icons-container {
